@@ -79,10 +79,10 @@ const Header = () => {
         <header className="header">
             <div className="header__top container">
                 <div className="logo"><img src={logo} alt=""/></div>
-                {isMobile && <button className="burger-button" onClick={toggleMenu}>
+                {isMobile && <div className="burger-button" onClick={toggleMenu}>
                     <img src={hum} alt=""/>
                     <img src="" alt=""/>
-                </button>}
+                </div>}
                 {isMobile ? renderBurgerMenu() : renderMenu()}
             </div>
             <div className="header__content container">
