@@ -185,7 +185,7 @@ h3.text-orange {
     justify-content: space-between;
     height: 80px;
 
-    nav {
+    menu {
       display: flex;
       gap: 32px;
       font-size: 14px;
@@ -196,6 +196,7 @@ h3.text-orange {
       li {
         opacity: 0.65;
         cursor: pointer;
+        list-style: none;
 
         &:hover {
           opacity: 1;

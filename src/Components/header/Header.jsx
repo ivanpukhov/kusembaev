@@ -43,11 +43,11 @@ const Header = () => {
     }
 
     const renderMenu = () => (
-        <nav>
+        <menu>
             {textContent.navigation.map((name, index) => (
                 <li key={index} className='header__link'>{name}</li>
             ))}
-        </nav>
+        </menu>
     );
 
     const renderBurgerMenu = () => (
