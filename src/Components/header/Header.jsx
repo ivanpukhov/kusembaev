@@ -4,7 +4,7 @@ import logo from "../../images/logo.svg";
 import header__graphic from "../../images/header/header__graphic.svg";
 import header__graphicMobile from "../../images/header/header__graphic-mobile.png";
 import header__phoneMobile from "../../images/header/header__phone-mobile.png";
-import header__phone from "../../images/header/header__phone.svg";
+import header__phone from "../../images/header/header__phone.png";
 import hum from "../../images/hum.svg";
 import './Header.css';
 
