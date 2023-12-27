@@ -1,10 +1,10 @@
 import svg from "../../images/svg.svg";
 import {ScrollMenu} from "react-horizontal-scrolling-menu";
-import review5 from "../../images/reviews/5.png";
-import review1 from "../../images/reviews/1.png";
-import review2 from "../../images/reviews/2.png";
-import review3 from "../../images/reviews/3.png";
-import review4 from "../../images/reviews/4.png";
+import review5 from "../../images/reviews/5.webp";
+import review1 from "../../images/reviews/1.webp";
+import review2 from "../../images/reviews/2.webp";
+import review3 from "../../images/reviews/3.webp";
+import review4 from "../../images/reviews/4.webp";
 
 const Reviews = () => {
 

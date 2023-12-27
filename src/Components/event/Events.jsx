@@ -1,9 +1,9 @@
-import event__mask from "../../images/event__mask.png";
-import event__maskBack from "../../images/event__mask-back.png";
-import event__nomask from "../../images/event__nomask-noback.png";
-import event__nomaskBack from "../../images/event__nomask.png";
-import nomaskBack from '../../images/success/nomask__back.png'
-import event__back from "../../images/event__back.png";
+import event__mask from "../../images/event__mask.webp";
+import event__maskBack from "../../images/event__mask-back.webp";
+import event__nomask from "../../images/event__nomask-noback.webp";
+import event__nomaskBack from "../../images/event__nomask.webp";
+import nomaskBack from '../../images/success/nomask__back.webp'
+import event__back from "../../images/event__back.webp";
 
 import Contacts from "../contacts/Contacts";
 import Modal from "../Modal";

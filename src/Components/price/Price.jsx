@@ -1,6 +1,6 @@
 import svg from "../../images/svg.svg";
-import price1 from "../../images/price/1.png";
-import price2 from "../../images/price/2.png";
+import price1 from "../../images/price/1.webp";
+import price2 from "../../images/price/2.webp";
 import Modal from "../Modal";
 import ConsultModal from "../ConsultModal";
 

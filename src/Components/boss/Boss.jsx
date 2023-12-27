@@ -1,6 +1,6 @@
-import boss__graphic from "../../images/Union.png";
-import boss from "../../images/boss/boss.png";
-import boss__graphicRight from "../../images/boss/boss__graphic-right.png";
+import boss__graphic from "../../images/Union.webp";
+import boss from "../../images/boss/boss.webp";
+import boss__graphicRight from "../../images/boss/boss__graphic-right.webp";
 
 const Boss = () => {
     const textContent = {

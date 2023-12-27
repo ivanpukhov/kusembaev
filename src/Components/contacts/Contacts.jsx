@@ -1,9 +1,9 @@
 import logo from "../../images/logo.svg";
 import phone from "../../images/phone.svg";
 import mail from "../../images/mail.svg";
-import instagram from "../../images/socials/instagram.png";
-import facebook from "../../images/socials/facebook.png";
-import youtube from "../../images/socials/youtube.png";
+import instagram from "../../images/socials/instagram.webp";
+import facebook from "../../images/socials/facebook.webp";
+import youtube from "../../images/socials/youtube.webp";
 
 const Contacts = () => {
     let contacts = [

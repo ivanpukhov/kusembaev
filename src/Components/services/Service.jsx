@@ -1,4 +1,4 @@
-import brain from "../../images/brain.png";
+import brain from "../../images/brain.webp";
 import Modal from "../Modal";
 import ConsultModal from "../ConsultModal";
 

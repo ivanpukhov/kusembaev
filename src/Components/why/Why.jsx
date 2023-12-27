@@ -1,8 +1,8 @@
 import svg from '../../images/svg.svg'
-import mask from '../../images/success/mask.png'
-import nomask from '../../images/success/nomask.png'
-import maskBack from '../../images/success/mask__back.png'
-import nomaskBack from '../../images/success/nomask__back.png'
+import mask from '../../images/success/mask.webp'
+import nomask from '../../images/success/nomask.webp'
+import maskBack from '../../images/success/mask__back.webp'
+import nomaskBack from '../../images/success/nomask__back.webp'
 import Modal from "../Modal";
 import ConsultModal from "../ConsultModal";
 

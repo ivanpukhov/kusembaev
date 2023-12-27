@@ -1,4 +1,4 @@
-import watermark from "../../images/watermark.png";
+import watermark from "../../images/watermark.webp";
 
 const DesignBy = () => {
     return (

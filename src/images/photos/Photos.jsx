@@ -1,9 +1,9 @@
-import photos1 from "./1.png";
-import photos2 from "./2.png";
-import photos3 from "./3.png";
-import photos4 from "./4.png";
-import photos5 from "./5.png";
-import photos6 from "./6.png";
+import photos1 from "./1.webp";
+import photos2 from "./2.webp";
+import photos3 from "./3.webp";
+import photos4 from "./4.webp";
+import photos5 from "./5.webp";
+import photos6 from "./6.webp";
 
 const Photos = () => {
     const textContent = {
