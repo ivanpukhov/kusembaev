@@ -1,0 +1,66 @@
+.burger-button {
+    display: none;
+    /* Стили для кнопки */
+}
+
+/* Стили для мобильного меню */
+.bm-menu {
+    background: #fff; /* цвет фона */
+    padding: 2.5em 1.5em 0; /* отступы */
+    font-size: 1.15em; /* размер шрифта */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bm-menu-wrap {
+    top: 0;
+}
+
+.bm-item-list a{
+    color: #FF5E62;
+    leading-trim: both;
+    text-edge: cap;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+}
+.bm-item-list{
+    flex-direction: column;
+    height: 100%;
+}
+
+.close-button {
+    /* Стили для кнопки закрытия */
+    position: absolute;
+    top: 20px; /* или другое нужное вам положение */
+    right: 20px;
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    cursor: pointer;
+}
+.bm-item {
+    display: inline-block;
+    text-decoration: none;
+    color: #373a47; /* цвет текста */
+    transition: color 0.2s;
+
+}
+
+.bm-item:hover {
+    color: #4CAF50; /* цвет текста при наведении */
+}
+
+.burger-button{
+    position: absolute;
+    right: 34px;
+
+}
+
+/* Стили для отображения кнопки на мобильных устройствах */
+@media (max-width: 1000px) {
+    .burger-button {
+        display: block;
+    }
+}

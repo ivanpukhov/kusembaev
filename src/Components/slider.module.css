@@ -1,0 +1,14 @@
+.slide {
+    transition: font-size 0.5s ease;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%;
+}
+
+.slide.slick-center {
+    font-size: 54px;
+}
+
+.slide:not(.slick-center) {
+    font-size: 27.314px;
+}
