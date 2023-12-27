@@ -50,7 +50,6 @@ const Header = () => {
         </nav>
     );
 
-
     const renderBurgerMenu = () => (
         <Menu right isOpen={menuOpen} onStateChange={(state) => setMenuOpen(state.isOpen)} width={'100%'}>
             <button className="close-button" onClick={closeMenu}>Закрыть</button>
@@ -60,6 +59,21 @@ const Header = () => {
         </Menu>
     );
 
+    // Добавляем предзагрузку для изображений
+    useEffect(() => {
+        const preloadImages = (images) => {
+            images.forEach((image) => {
+                new Image().src = image;
+            });
+        };
+
+        preloadImages([
+            header__graphic,         // Загружаем изображения
+            header__graphicMobile,   // Загружаем изображения
+            header__phoneMobile,     // Загружаем изображения
+            header__phone            // Загружаем изображения
+        ]);
+    }, []);
 
     return (
         <header className="header">
